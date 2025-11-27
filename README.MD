@@ -2,6 +2,7 @@
 
 Simulação de bichinho virtual em Java (console), utilizando conceitos de Programação Orientada a Objetos.  
 O usuário pode alimentar, brincar e colocar o pet para dormir, monitorando seus níveis de **fome**, **felicidade** e **energia**.
+
 Projeto criado para construção e fixação de habilidades em programação orientada a objetos, clean-coding e raciocínio lógico.
 
 ---
