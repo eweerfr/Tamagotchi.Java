@@ -32,17 +32,4 @@ Projeto criado para construção e fixação de habilidades em programação ori
 
 ## 📸 Exemplo de uso
 
-```Nome do seu Tamagotchi:
-Luna
-
---- Status de Luna ---
-Fome: 50
-Felicidade: 50
-Energia: 50
-
-O que deseja fazer?
-1 - Alimentar
-2 - Brincar
-3 - Dormir
-4 - Sair```
-
+![image](assets/img.png)
