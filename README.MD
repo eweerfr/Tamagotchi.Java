@@ -16,6 +16,7 @@ Projeto criado para construção e fixação de habilidades em programação ori
 ✔ Dormir (recupera energia, mas fica com fome e triste)
 ✔ O pet pode **morrer** se ficar com muita fome, muito triste ou cansado
 
+
 ---
 
 ## 💻 Tecnologias
