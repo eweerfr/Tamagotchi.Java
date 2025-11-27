@@ -9,7 +9,7 @@ public class Tamagotchi {
     private int energia = 50;
 
     public Tamagotchi(String nome) {
-        this.nome = nome;
+        this.nome = nome; // inicializa um novo Tamagotchi com o nome especificado no inicio do jogo
     }
 
     public void alimentar() {
@@ -44,6 +44,7 @@ public class Tamagotchi {
     }
 
     public boolean estaVivo() {
-        return fome < 100 && energia > 0 && felicidade > 0; // se fome nao tiver no maximo, energia e felicidade nao zeradas, pet está vivo e continua o game
+        return fome < 100 && energia > 0 && felicidade > 0; // continuar o jogo se a fome nao estiver 100, energia ou
+                                                            // felicidade zeradas
     }
 }

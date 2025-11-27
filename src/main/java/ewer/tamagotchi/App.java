@@ -6,16 +6,17 @@ import java.util.Scanner;
 public class App {
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in); // Prepara para receber o nome do bichinho virtual
 
         System.out.println("Nome do seu Tamagotchi: ");
         String nome = input.nextLine();
 
-        Tamagotchi pet = new Tamagotchi(nome);
+        Tamagotchi pet = new Tamagotchi(nome); // Inicializa o bichinho virtual com o nome fornecido
 
         while (pet.estaVivo()) {
             System.err.println("");
-            pet.status();
+            pet.status(); // Chama a função que mantém o jogo rodando, verificando o estado do bichinho
+                          // virtual
 
             System.out.println("\nO que deseja fazer?");
             System.err.println("1 - Alimentar");
@@ -23,7 +24,7 @@ public class App {
             System.err.println("3 - Dormir");
             System.err.println("4 - Sair");
 
-            int opcao = input.nextInt();
+            int opcao = input.nextInt(); // Aguarda a opção do jogador
 
             switch (opcao) {
                 case 1:
@@ -45,7 +46,13 @@ public class App {
                     System.err.println("Opção inválida!!");
             }
         }
-        System.err.println("\nInfelizmente, " + nome + " não resistiu e foi de caixa...\nF...");
+        System.err.println("\nInfelizmente, " + nome + " não resistiu e foi de caixa...\nF..."); // Encerra o jogo pois
+                                                                                                 // uma das condições de
+                                                                                                 // manter o jogo vivo
+                                                                                                 // nao foi cumprida:
+                                                                                                 // energia ou
+                                                                                                 // felicidade>0,
+                                                                                                 // fome<100
         input.close();
     }
 }
