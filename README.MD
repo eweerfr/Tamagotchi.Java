@@ -9,12 +9,12 @@ Projeto criado para construção e fixação de habilidades em programação ori
 
 ## 🚀 Funcionalidades
 
-✔ Criar um Tamagotchi e escolher seu nome
-✔ Mostrar status
-✔ Alimentar (reduz fome, gasta energia, aumenta felicidade)
-✔ Brincar (aumenta felicidade, mas cansa e dá fome)
-✔ Dormir (recupera energia, mas fica com fome e triste)
-✔ O pet pode **morrer** se ficar com muita fome, muito triste ou cansado
+✔ Criar um Tamagotchi e escolher seu nome  
+✔ Mostrar status  
+✔ Alimentar (reduz fome, gasta energia, aumenta felicidade)  
+✔ Brincar (aumenta felicidade, mas cansa e dá fome)  
+✔ Dormir (recupera energia, mas fica com fome e triste)  
+✔ O pet pode **morrer** se ficar com muita fome, muito triste ou cansado  
 
 
 ---
