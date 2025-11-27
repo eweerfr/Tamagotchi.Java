@@ -32,4 +32,4 @@ Projeto criado para construção e fixação de habilidades em programação ori
 
 ## 📸 Exemplo de uso
 
-![image](assets/img.png)
+<img src="assets/img.png" width="400px">
